@@ -1,0 +1,82 @@
+@media (max-width: 1150px) {
+    .conteudo .logo-conteudo {
+        height: 400px;
+    }
+
+    .conteudo .conteudo-titulo h1 {
+        font-size: 2.0rem;
+    }
+
+    .conteudo .conteudo-titulo p{
+        font-size: 0.8rem;
+    }
+
+    .rodape .rodape-rede {
+        margin-top: 20px;
+    }
+}   
+
+@media (max-width: 757px){
+    body {
+        background-image: url(../img/bg-mobile.svg);
+        min-height: 0;
+    }
+
+    .header .logo {
+        height: 2rem;
+        margin-top: 10px;
+    }
+    
+    .header {
+        display: flex;
+        margin: 0 auto;
+        width: 300px;
+    }
+    
+    .conteudo .logo-conteudo {
+        height: 230px;
+    }
+
+    .conteudo .conteudo-principal {
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
+        margin: 0 auto;
+    }
+
+    .conteudo .conteudo-titulo {
+        width: 300px;
+        text-align: center;
+        margin-left: 0rem;
+    }
+
+    .conteudo .conteudo-principal .botao {
+        padding: 1rem 5rem;
+        margin-bottom: 70px;
+    }
+
+    .conteudo .conteudo-titulo h1 {
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+
+    .conteudo .conteudo-titulo p{
+        font-size: 1rem;
+    }
+    
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodape .rodape-rede {
+        margin-right: 0px;
+    }
+
+    .rodape .rodape-rede a{
+        height: 35px;
+        width: 35px;
+        font-size: 15px;
+    }
+}
