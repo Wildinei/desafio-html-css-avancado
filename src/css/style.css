@@ -69,7 +69,7 @@ body{
     justify-content: end;
 }
 
-.rodape .rodape-rede {
+.rodape .rodape-rede ul{
     display: flex;
     gap: 20px;
     margin-right: 60px;
